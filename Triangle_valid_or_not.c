@@ -7,7 +7,7 @@ int main()
     {
         printf("Valid triangle");
     }
-    else 
+    else
     {
         printf("Invalid triangle");
     }
