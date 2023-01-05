@@ -13,5 +13,5 @@ int main()
         if(i%2!=0)
         s=s+a[i];
     }
-   printf("%d",s); 
+    printf("%d",s);
 }
