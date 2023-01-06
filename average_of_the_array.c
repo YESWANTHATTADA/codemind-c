@@ -1,9 +1,8 @@
 #include<stdio.h>
-int main()
-{
-    int n,m,i;
+int main(){
+    int n;
     scanf("%d",&n);
-    int a[n];
+    int a[n],i,m;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -12,8 +11,10 @@ int main()
     for(i=0;i<n;i++)
     {
         m=m+a[i];
+        
     }
+    
     float y;
-    y=float(m)/n;
+    y=float (m)/n;
     printf("%.2f",y);
 }
