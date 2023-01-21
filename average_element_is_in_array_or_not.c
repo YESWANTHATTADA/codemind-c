@@ -16,14 +16,14 @@ int main(){
     }
     int g;
     float y;
-    y=f/n;
-    for(i=0;i<n;i++)
-    {
-        if(y==a[i])
-        {
-            g=1;
-        }
-    }
+  y=f/n;
+  for(i=0;i<n;i++)
+  {
+      if(y==a[i])
+      {
+          g=1;
+      }
+  }
     if(g==1)
     {
         printf("True");
