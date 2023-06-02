@@ -1,17 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int a,b,x,y,i,p;
     scanf("%d%d",&a,&b);
-    int lcm;
-    lcm=(a>b)?a:b;
-    while(1)
+    if(a>b)
     {
-        if(lcm%a==0 && lcm%b==0)
+        x=a;
+        y=b;
+    }
+    else
+    {
+        x=b;
+        y=a;
+    }
+    for(i=1;i<x*b;i++)
+    {
+        p = x*i;
+        if(p%y==0)
         {
-            printf("%d",lcm);
+            printf("%d",p);
             break;
         }
-        lcm++;
     }
 }
